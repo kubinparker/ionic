@@ -1,0 +1,7 @@
+{
+  "name": "jpage",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

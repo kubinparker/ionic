@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "jpage",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
