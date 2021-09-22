@@ -1,0 +1,7 @@
+ion-buttons.logo{
+    background:#fff;
+}
+ion-buttons.logo ion-thumbnail{
+    --size:38px;
+    width: auto;
+}
