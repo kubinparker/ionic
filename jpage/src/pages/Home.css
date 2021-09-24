@@ -5,3 +5,36 @@ ion-buttons.logo ion-thumbnail{
     --size:38px;
     width: auto;
 }
+ion-fab.menu-bottom, 
+ion-fab.menu-bottom ion-fab-button, 
+ion-fab.menu-bottom ion-toolbar {
+    width: 45px;
+    height: 20px;
+}
+ion-fab.menu-bottom ion-toolbar{
+    --padding-top:0px;
+    --padding-start:0px;
+    --padding-end:0px;
+    --padding-bottom:0px;
+    --min-height:20px;
+    border-radius: 7px 7px 7px 7px;
+}
+ion-fab.menu-bottom{
+    border-radius: 7px 7px 7px 7px;
+}
+ion-fab.menu-bottom ion-fab-button{
+    height: 20px;
+    --border-radius: unset;
+    --border-radius: 7px 7px 7px 7px;
+    --background: #434242;
+    --border-width: 1px;
+    --border-color: #707070;
+    --border-style: unset;
+}
+.pagination {
+    justify-content: center;
+}
+ion-header ion-button,
+.pagination ion-button {
+    --color:var(--ion-color-primary-contrast);
+}
